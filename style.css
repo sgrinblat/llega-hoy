@@ -1,0 +1,98 @@
+@media (max-width:991px) {
+    body.poster {
+        margin-top: 60vh;
+    }
+}
+
+*::-webkit-scrollbar{
+    width: 15px;
+    background: #efefef;
+  }
+  
+  *::-webkit-scrollbar-thumb{
+    background: rgb(248, 197, 56);
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover{
+    background: rgb(211, 164, 33);
+  }
+  
+  *::-webkit-scrollbar-thumb:active{
+    background: rgb(164, 125, 17);
+  }
+
+body.poster {
+    background-attachment: fixed;
+}
+
+.top-5 {
+    top: 5px;
+}
+
+.fondo-header{
+    background-color: #d707cc;
+}
+
+a:hover{
+    color: #f8a724 !important;
+    font-weight: bold;
+}
+
+.logo-llegahoy{
+    max-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.header-image{
+    max-height: 500px;
+}
+
+/* ----------------- CONTACTO ------------------ */
+
+.formulario{
+    padding: 60px 0 60px 0;
+}
+
+.whatsapp{
+    justify-content: center;
+    display: flex;
+}
+
+.whatsapp a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #262626;
+}
+.whatsapp-icono{
+    transition: all 1s ease-in-out;
+    margin-right: 20px;
+    border: 1px #262626 solid;
+    border-radius: 30%;
+}
+.whatsapp-icono:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+
+/* ----------------- NOSOTROS ------------------ */
+
+.imagenes-nosotros{
+    height: auto;
+    display: inline;
+    width: 100%;
+}
+
+.seccion-principal{
+    width: 99%;
+}
+
+.card-contenedor{
+    width: 500px;
+}
+
+.imagen-card{
+    width: 540px;
+}
+
