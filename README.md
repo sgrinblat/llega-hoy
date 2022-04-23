@@ -6,9 +6,9 @@ He creado esta web para un desafio de uso de Bootstrap para el curso de Diseño 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Mi proceso](#mi-proceso)
+  - [Construido con](#construido-con)
+- [Autor](#autor)
 
 ## Overview
 
