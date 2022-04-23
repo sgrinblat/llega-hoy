@@ -9,6 +9,7 @@
         <link href="../bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="../blocks.css">
         <link href="../style.css" rel="stylesheet">
+        <script src="../assets/js/scrollreveal.js"></script>
         <title>Llega Hoy Logistica</title>
     </head>
 
@@ -16,9 +17,9 @@
         <header class="fondo-header position-relative">
             <div class="col-lg-8 end-0 h-100 position-absolute top-0">
             </div>
-            <nav class="navbar navbar-dark navbar-expand-lg pb-3 pt-3 shadow-none"> 
+            <nav class="navbar scroll-top navbar-dark navbar-expand-lg pb-3 pt-3 shadow-none"> 
                 <div class="container"> 
-                    <img class="logo-llegahoy" src="../img/llegahoy.png" alt="logo de llega hoy">
+                  <a href="../index.html"><img class="logo-llegahoy-blanco" src="../img/llegahoy.png" alt="logo de llega hoy"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-2" aria-controls="navbarNavDropdown-2" aria-expanded="false" aria-label="Toggle navigation"> 
                         <span class="navbar-toggler-icon"></span> 
                     </button>                     
@@ -28,7 +29,7 @@
                                 <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" aria-current="page" href="../index.html">Home</a> 
                             </li>
                             <li class="nav-item"> 
-                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" href="nosotros.html" target="_pg_blank">Sobre nosotros</a> 
+                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" href="nosotros.html">Sobre nosotros</a> 
                             </li>
                             <li class="nav-item"> 
                                 <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" href="servicios.html">Servicios</a> 
@@ -48,34 +49,30 @@
                 <h3 class="text-center pt-2" >Este formulario es lo que te separa de contar con nosotros en tu equipo ⚽</h3>
             </div>}
             <div class="formulario" >
-                <div id="formulario-form" class="container">
+                <div class="container">
                   <form method="POST">
                       <div class="row mb-4">
                       <div class="col">
-                        <div class="form-outline">
-                          <input type="text" id="form6Example1" class="form-control" required/>
-                          <label class="form-label" for="form6Example1">Nombre</label>
+                        <div>
+                            <input type="text" id="form6Example1" class="formulario-input" required/>
+                            <label class="form-label" for="form6Example1">Nombre</label>
                         </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <input type="text" id="form6Example2" class="form-control" required/>
-                          <label class="form-label" for="form6Example2">Apellido</label>
+                        <div>
+                            <input type="text" id="form6Example2" class="formulario-input" required/>
+                            <label class="form-label" for="form6Example2">Apellido</label>
                         </div>
-                      </div>
-                      </div>
-                      <div class="form-outline mb-4">
-                        <input type="email" id="form6Example5" class="form-control" required/>
-                        <label class="form-label" for="form6Example5">Email</label>
-                      </div>
-                      <div class="form-outline mb-4">
-                        <input type="number" id="form6Example6" placeholder="(Código de área) + NÚM. Ej: 011 1132378149" class="form-control" required />
-                        <label class="form-label" for="form6Example6">Celular</label>
-                      </div>
-                      <div class="form-outline mb-4">
-                        <textarea class="form-control" id="form6Example7" placeholder="Contanos qué estás necesitando para poder brindarte un servicio personalizado." rows="4" required></textarea>
-                        <label class="form-label" for="form6Example7">Mensaje</label>
-                      </div>
+                        <div>
+                            <input type="number" id="form6Example3" class="formulario-input" required/>
+                            <label class="form-label" for="form6Example3">Celular</label>
+                        </div>
+                        <div>
+                            <input type="email" id="form6Example4" class="formulario-input" required/>
+                            <label class="form-label" for="form6Example4">Correo</label>
+                        </div>
+                        <div>
+                            <textarea type="text" id="form6Example5" class="formulario-input" placeholder="Escribinos tu consulta!" required></textarea>
+                            <label class="form-label" for="form6Example5">Mensaje</label>
+                        </div>
                       <button type="submit" class="btn btn-warning btn-block btn-lg mb-4">Enviar</button>
                   </form>
               </div>
@@ -88,10 +85,10 @@
 
         <footer class="bg-dark pb-3 pt-5 text-center text-white"> 
             <div class="container pb-4 pt-4"> 
-                <img class="logo-llegahoy" src="../img/llegahoyVioleta.png" alt="logo de llega hoy">
+                <a href="../index.html"><img class="logo-llegahoy-violeta" src="../img/llegahoyVioleta.png" alt="logo de llega hoy"></a>
                 <nav class="justify-content-center mb-4 nav">
-                    <a class="link-light nav-link " aria-current="page" href="../index.html" target="_pg_blank">Home</a>
-                    <a class="link-light nav-link " href="nosotros.html" target="_pg_blank">Sobre nosotros</a>
+                    <a class="link-light nav-link " aria-current="page" href="../index.html">Home</a>
+                    <a class="link-light nav-link " href="nosotros.html">Sobre nosotros</a>
                     <a class="link-light nav-link " href="servicios.html">Servicios</a>
                     <a class="link-light nav-link " href="#">Contacto</a>
                 </nav>
@@ -116,7 +113,7 @@
                 </div>
             </div>             
         </footer>
-
+        <script src="../assets/js/scriptReveal.js"></script>
         <script src="../assets/js/popper.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
     </body>
