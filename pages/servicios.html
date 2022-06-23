@@ -12,9 +12,27 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../blocks.css">
+    <link rel="icon" type="image/x-icon" href="../img/flechas.png">
     <link href="../style.css" rel="stylesheet">
     <script src="../assets/js/scrollreveal.js"></script>
     <title>Llega Hoy Logistica</title>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '3e168fa4af77f56c50ee5c38127e5982fd56a7f5';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
 </head>
 
 <body class="text-muted">
@@ -48,14 +66,21 @@
                                 href="contacto.html">Contacto</a>
                         </li>
                     </ul>
+                    <div class="div__boton-oscuro">
+                        <button class="switch" id="switch">
+                            <span><i class="fas fa-sun"></i></span>
+                            <span><i class="fas fa-moon"></i></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="fondo-web">
         <div class="container">
-            <h1 class="text-center pt-5">¿Cuáles son los servicios que proporcionamos?</h1>
-            <h4 class="text-center pt-2">A continuación, te compartimos el listado actualizado de productos postales con
+            <h1 class="text-center display-text pt-5">¿Cuáles son los servicios que proporcionamos?</h1>
+            <h4 class="text-center display-text pt-2">A continuación, te compartimos el listado actualizado de productos
+                postales con
                 el costo vigente para su adquisición en nuestra red de sucursales.</h4>
             <p class="text-center IVA">IVA incluido</p>
         </div>
@@ -70,7 +95,7 @@
                             <path
                                 d="M3.5 1a1 1 0 0 0 1-1h1a1 1 0 0 0 2 0h1a1 1 0 0 0 2 0h1a1 1 0 1 0 2 0H15v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1a1 1 0 1 0 0 2v1h-1.5a1 1 0 1 0-2 0h-1a1 1 0 1 0-2 0h-1a1 1 0 1 0-2 0h-1a1 1 0 1 0-2 0H1v-1a1 1 0 1 0 0-2v-1a1 1 0 1 0 0-2V9a1 1 0 1 0 0-2V6a1 1 0 0 0 0-2V3a1 1 0 0 0 0-2V0h1.5a1 1 0 0 0 1 1ZM3 3v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1Z" />
                         </svg>
-                        <p>Postales</p>
+                        <p class="display-text">Postales</p>
                     </button>
                     <button class="boton__servicios" id="encomiendas" onclick="javascript:mostrarEncomiendas()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#d707cc" class="bi bi-box2"
@@ -78,7 +103,7 @@
                             <path
                                 d="M2.95.4a1 1 0 0 1 .8-.4h8.5a1 1 0 0 1 .8.4l2.85 3.8a.5.5 0 0 1 .1.3V15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4.5a.5.5 0 0 1 .1-.3L2.95.4ZM7.5 1H3.75L1.5 4h6V1Zm1 0v3h6l-2.25-3H8.5ZM15 5H1v10h14V5Z" />
                         </svg>
-                        <p>Encomiendas</p>
+                        <p class="display-text">Encomiendas</p>
                     </button>
                     <button class="boton__servicios" id="adicionales" onclick="javascript:mostrarAdicionales()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#d707cc"
@@ -86,13 +111,18 @@
                             <path
                                 d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z" />
                         </svg>
-                        <p>Adicionales</p>
+                        <p class="display-text">Adicionales</p>
                     </button>
                 </div>
                 <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12 lista__servicios-desktop">
-                    <div class="datos__servicios-postales" id="serviciosPostales" style="display: block;">
+                    <div class="d-flex justify-content-center" >
+                        <div class="spinner-border text-secondary" role="status" id="spinner" style="display: none;">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                    <div class="datos__servicios-postales" id="serviciosPostales" style="display: none;">
                         <ul>
-                            <li>Postal Simple hasta 500 gr</li>
+                            <li class="display-text">Postal Simple hasta 500 gr</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de correspondencia y documentación, a todo Buenos Aires, con entrega bajo puerta o buzón.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -101,9 +131,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 290</li>
+                            <li id="precioPostalIDCero" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Postal Custodiado hasta 500 gr</li>
+                            <li class="display-text">Postal Custodiado hasta 500 gr</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de correspondencia y documentación, a todo Buenos Aires, con entrega bajo puerta o buzón.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -112,9 +142,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 890</li>
+                            <li id="precioPostalIDUno" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Obleas Documento Llegahoy</li>
+                            <li class="display-text">Obleas Documento Llegahoy</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Estampilla postal para adherir al formulario de Carta Documento. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -122,10 +152,10 @@
                                     <path
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
-                            </a>
-                            <li class="precios__servicios">$ 770</li>
+                            </a>  
+                            <li id="precioPostalIDDos" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Formulario Documento LlegaHoy (con oblea)</li>
+                            <li class="display-text">Formulario Documento LlegaHoy (con oblea)</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Formulario para la redacción de Carta Documento que contiene estampilla postal.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -134,9 +164,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 50</li>
+                            <li id="precioPostalIDTres" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Formulario Documento LlegaHoy (sin oblea)</li>
+                            <li class="display-text">Formulario Documento LlegaHoy (sin oblea)</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Formulario para la redacción de Carta Documento que no contiene estampilla postal.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -145,13 +175,13 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 790</li>
+                            <li id="precioPostalIDCuatro" class="precios__servicios display-text">X</li>
                             <hr>
                         </ul>
                     </div>
                     <div class="datos__servicios-encomiendas" id="serviciosEncomiendas" style="display: none;">
                         <ul>
-                            <li>Bolsa LlegaHoy Pack</li>
+                            <li class="display-text">Bolsa LlegaHoy Pack</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de documentación y pequeña paquetería, en un sobre-bolsa plástico, con entrega dentro de las 24 horas hábiles que siguen a su despacho. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -160,9 +190,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1290</li>
+                            <li id="precioEncomiendasIDCero" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Bolsa Llegahoy Pack - 24hs.</li>
+                            <li class="display-text">Bolsa Llegahoy Pack - 24hs.</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de documentación y pequeña paquetería, en un sobre-bolsa plástico, con entrega dentro de las 24 horas hábiles que siguen a su despacho. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -171,9 +201,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1890</li>
+                            <li id="precioEncomiendasIDUno" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Llegahoy Encomienda</li>
+                            <li class="display-text">Llegahoy Encomienda</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de paquetería hasta 35KG, con embalaje preparado por nosotros. Como mínimo, el envío debe pesar 5 kg y recorrer 10 km. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -182,9 +212,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 840</li>
+                            <li id="precioEncomiendasIDDos" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 2KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 2KG</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de paquetería, en una caja de 24x18x14cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -193,9 +223,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1190</li>
+                            <li id="precioEncomiendasIDTres" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 3KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 3KG</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de paquetería, en una caja de 24x18x14cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -204,9 +234,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1340</li>
+                            <li id="precioEncomiendasIDCuatro" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 5KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 5KG</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de paquetería, en una caja de 44x32x18cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -215,9 +245,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1690</li>
+                            <li id="precioEncomiendasIDCinco" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 10KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 10KG</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de paquetería, en una caja de 40x30x15cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -226,9 +256,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 2040</li>
+                            <li id="precioEncomiendasIDSeis" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 20KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 20KG</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de distribución de paquetería, en una caja de 40x35x22cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -237,13 +267,13 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 2790</li>
+                            <li id="precioEncomiendasIDSiete" class="precios__servicios display-text">X</li>
                             <hr>
                         </ul>
                     </div>
                     <div class="datos__servicios-adicionales" id="serviciosAdicionales" style="display: none;">
                         <ul>
-                            <li>Acuse de Recibo</li>
+                            <li class="display-text">Acuse de Recibo</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio de acuse de recibo para nuestros servicios para conocer los datos de quién recibió su producto.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -252,9 +282,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 190</li>
+                            <li id="precioAdicionalesIDCero" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Letter Pack</li>
+                            <li class="display-text">Letter Pack</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Servicio gratuito adherido al envío simple de postales. Su carta es guardada dentro de una bolsa transparente sellada para garantizar su inviolabilidad.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -263,9 +293,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 0.00</li>
+                            <li id="precioAdicionalesIDUno" class="precios__servicios display-text">X</li>
                             <hr>
-                            <li>Ayuda administrativa en su sector de logística.</li>
+                            <li class="display-text">Ayuda administrativa en su sector de logística.</li>
                             <a class="tt" data-bs-placement="bottom"
                                 title="Sabemos qué no siempre se tiene muy en claro cómo organizar el sector de logística al emprender. Podes contratarnos para que te ayudemos a organizarte!">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -274,7 +304,7 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ VARIABLE</li>
+                            <li id="precioAdicionalesIDDos" class="precios__servicios display-text ">X</li>
                             <hr>
                         </ul>
                     </div>
@@ -282,7 +312,7 @@
             </div>
         </div>
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item fondo-web">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -300,7 +330,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li>Postal Simple hasta 500 gr</li>
+                            <li class="display-text">Postal Simple hasta 500 gr</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de correspondencia y documentación, a todo Buenos Aires, con entrega bajo puerta o buzón.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -309,9 +339,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 290</li>
+                            <li class="precios__servicios display-text">$ 290</li>
                             <hr>
-                            <li>Postal Custodiado hasta 500 gr</li>
+                            <li class="display-text">Postal Custodiado hasta 500 gr</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de correspondencia y documentación, a todo Buenos Aires, con entrega bajo puerta o buzón.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -320,9 +350,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 890</li>
+                            <li class="precios__servicios display-text">$ 890</li>
                             <hr>
-                            <li>Obleas Documento Llegahoy</li>
+                            <li class="display-text">Obleas Documento Llegahoy</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Estampilla postal para adherir al formulario de Carta Documento. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -331,9 +361,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 770</li>
+                            <li class="precios__servicios display-text">$ 770</li>
                             <hr>
-                            <li>Formulario Documento LlegaHoy (con oblea)</li>
+                            <li class="display-text">Formulario Documento LlegaHoy (con oblea)</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Formulario para la redacción de Carta Documento que contiene estampilla postal.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -342,9 +372,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 50</li>
+                            <li class="precios__servicios display-text">$ 50</li>
                             <hr>
-                            <li>Formulario Documento LlegaHoy (sin oblea)</li>
+                            <li class="display-text">Formulario Documento LlegaHoy (sin oblea)</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Formulario para la redacción de Carta Documento que no contiene estampilla postal.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -353,13 +383,13 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 790</li>
+                            <li class="precios__servicios display-text">$ 790</li>
                             <hr>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item fondo-web">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -375,7 +405,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li>Bolsa LlegaHoy Pack</li>
+                            <li class="display-text">Bolsa LlegaHoy Pack</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de documentación y pequeña paquetería, en un sobre-bolsa plástico, con entrega dentro de las 24 horas hábiles que siguen a su despacho. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -384,9 +414,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1290</li>
+                            <li class="precios__servicios display-text">$ 1290</li>
                             <hr>
-                            <li>Bolsa Llegahoy Pack - 24hs.</li>
+                            <li class="display-text">Bolsa Llegahoy Pack - 24hs.</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de documentación y pequeña paquetería, en un sobre-bolsa plástico, con entrega dentro de las 24 horas hábiles que siguen a su despacho. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -395,9 +425,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1890</li>
+                            <li class="precios__servicios display-text">$ 1890</li>
                             <hr>
-                            <li>Llegahoy Encomienda</li>
+                            <li class="display-text">Llegahoy Encomienda</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de paquetería hasta 35KG, con embalaje preparado por nosotros. Como mínimo, el envío debe pesar 5 kg y recorrer 10 km. Ofrece trazabilidad a lo largo de todo el proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -406,9 +436,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 840</li>
+                            <li class="precios__servicios display-text">$ 840</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 2KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 2KG</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de paquetería, en una caja de 24x18x14cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -417,9 +447,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1190</li>
+                            <li class="precios__servicios display-text">$ 1190</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 3KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 3KG</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de paquetería, en una caja de 24x18x14cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -428,9 +458,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1340</li>
+                            <li class="precios__servicios display-text">$ 1340</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 5KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 5KG</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de paquetería, en una caja de 44x32x18cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -439,9 +469,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 1690</li>
+                            <li class="precios__servicios display-text">$ 1690</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 10KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 10KG</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de paquetería, en una caja de 40x30x15cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -450,9 +480,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 2040</li>
+                            <li class="precios__servicios display-text">$ 2040</li>
                             <hr>
-                            <li>Caja LlegaHoy Pack - 20KG</li>
+                            <li class="display-text">Caja LlegaHoy Pack - 20KG</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de distribución de paquetería, en una caja de 40x35x22cm, con entrega dentro de las 24 horas hábiles que siguen a su despacho, en las localidades habilitadas. Ofrece trazabilidad a lo largo del proceso.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -461,13 +491,13 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 2790</li>
+                            <li class="precios__servicios display-text">$ 2790</li>
                             <hr>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item fondo-web">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -483,7 +513,7 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li>Acuse de Recibo</li>
+                            <li class="display-text">Acuse de Recibo</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio de acuse de recibo para nuestros servicios para conocer los datos de quién recibió su producto.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -492,9 +522,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 190</li>
+                            <li class="precios__servicios display-text">$ 190</li>
                             <hr>
-                            <li>Letter Pack</li>
+                            <li class="display-text">Letter Pack</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Servicio gratuito adherido al envío simple de postales. Su carta es guardada dentro de una bolsa transparente sellada para garantizar su inviolabilidad.">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -503,9 +533,9 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ 0.00</li>
+                            <li class="precios__servicios display-text">$ 0.00</li>
                             <hr>
-                            <li>Ayuda administrativa en su sector de logística.</li>
+                            <li class="display-text">Ayuda administrativa en su sector de logística.</li>
                             <a class="tt" data-bs-placement="right"
                                 title="Sabemos qué no siempre se tiene muy en claro cómo organizar el sector de logística al emprender. Podes contratarnos para que te ayudemos a organizarte!">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -514,23 +544,22 @@
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
                                 </svg>
                             </a>
-                            <li class="precios__servicios">$ VARIABLE</li>
+                            <li class="precios__servicios display-text">$ VARIABLE</li>
                             <hr>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <h2 class="titulo__reviews">¿Qué opinan sobre nosotros nuestros clientes?</h2>
+        <h2 class="titulo__reviews display-text">¿Qué opinan sobre nosotros nuestros clientes?</h2>
         <div class="valorDiferencial">
             <div class="ventajas">
                 <article>
-                    <div class="primera_review">
-                        <img class="review"
-                            src="https://images.generated.photos/z28Qx5ND5BAhLf25a81JZjqrn0TKmt03jm2hBoHk52E/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvOTBkMTNj/MDQtZWIzYy00YWU3/LThkMDQtNmM3YmFj/ODgyNWUzLmpwZw.jpg"
-                            alt="">
-                        <h4 class="text-center">Pablo</h4>
-                        <p class="text-center">Junto a unos socios pusimos un negocio de computación y fotografía. Las
+                    <div class="primera_review bg-light">
+                        <img class="review" src="https://bun.filedit.ch/rJZPPfeXGBwjjDORUzbm.jpg" alt="">
+                        <h4 class="text-center display-text">Pablo</h4>
+                        <p class="text-center display-text">Junto a unos socios pusimos un negocio de computación y
+                            fotografía. Las
                             ventas por MercadoLibre y por redes sociales se nos fue de las manos, y un amigo me
                             recomendó LlegaHoy. No podriamos estar más satisfechos con su servicio.</p>
                         <div id="estrella" class="container text-center">
@@ -543,12 +572,11 @@
                     </div>
                 </article>
                 <article>
-                    <div class="segunda_review">
-                        <img class="review"
-                            src="https://images.generated.photos/pYm4cGxUFDUkyWnUrPHfkGNYIyLOpobYZ8cfiuIiCKI/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvMDUyYjgx/ZGMtMjg5ZC00YWI0/LTliZWUtNTg3ODNi/MWYxZTMyLmpwZw.jpg"
-                            alt="">
-                        <h4 class="text-center">Julieta</h4>
-                        <p class="text-center">Comencé mi emprendimiento de lencería y por suerte las ventas empezaron a
+                    <div class="segunda_review bg-light">
+                        <img class="review" src="https://bun.filedit.ch/COjFOlhceVVFZXGWCwP.jpg" alt="">
+                        <h4 class="text-center display-text">Julieta</h4>
+                        <p class="text-center display-text">Comencé mi emprendimiento de lencería y por suerte las
+                            ventas empezaron a
                             desbordarme. Contratando a LlegaHoy solucioné los inconvenientes que estaba teniendo con
                             tanta demanda de envíos.</p>
                         <div id="estrella" class="container text-center">
@@ -561,12 +589,11 @@
                     </div>
                 </article>
                 <article>
-                    <div class="tercera_review">
-                        <img class="review"
-                            src="https://images.generated.photos/hc2trjIuuSfAPT4_ammdKacZIyyfo-GNkEYDREAEy3s/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LmNvbmQvOGI5NDI2/NWYtMmJmMS00MGM0/LWI4MWItZmMyZmJm/Mjc0MmEyLmpwZw.jpg"
-                            alt="">
-                        <h4 class="text-center">Leonardo</h4>
-                        <p class="text-center">Con LlegaHoy pude resolver los problemas de envíos que requerían que
+                    <div class="tercera_review bg-light">
+                        <img class="review" src="https://bun.filedit.ch/htyJALvjZicPOJmZqdUp.jpg" alt="">
+                        <h4 class="text-center display-text">Leonardo</h4>
+                        <p class="text-center display-text">Con LlegaHoy pude resolver los problemas de envíos que
+                            requerían que
                             llegaran en el mismo día a mis clientes. Con otros correos no pude cumplir ese compromiso,
                             así que valoro mucho el servicio de esta logística.</p>
                         <div id="estrella" class="container text-center">
@@ -620,7 +647,9 @@
         </div>
     </footer>
     <script src="../assets/js/scriptReveal.js"></script>
+    <script src="../assets/js/arraysPrecios.js"></script>
     <script src="../assets/js/scriptShowItems.js"></script>
+    <script src="../assets/js/darkMode.js"></script>
     <script src="../assets/js/popper.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script>

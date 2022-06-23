@@ -10,8 +10,19 @@
     <link href="../bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../blocks.css">
     <link href="../style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../assets/js/scrollreveal.js"></script>
     <title>Llega Hoy Logistica</title>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '3e168fa4af77f56c50ee5c38127e5982fd56a7f5';
+        window.smartsupp||(function(d) {
+            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+            c.type='text/javascript';c.charset='utf-8';c.async=true;
+            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+        </script>
 </head>
 
 <body class="text-muted">
@@ -45,15 +56,21 @@
                             <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" href="#">Contacto</a>
                         </li>
                     </ul>
+                    <div class="div__boton-oscuro">
+                        <button class="switch" id="switch">
+                            <span><i class="fas fa-sun"></i></span>
+                            <span><i class="fas fa-moon"></i></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main class="fondo-web">
         <div class="container">
-            <h1 class="text-center pt-5">Ponete en contacto con nosotros</h1>
-            <h3 class="text-center pt-2">Este formulario es lo que te separa de contar con nosotros en tu equipo ⚽</h3>
+            <h1 class="text-center pt-5 display-text">Ponete en contacto con nosotros</h1>
+            <h3 class="text-center pt-2 display-text">Este formulario es lo que te separa de contar con nosotros en tu equipo ⚽</h3>
         </div>
         <div class="formulario">
             <div class="container">
@@ -61,25 +78,25 @@
                     <div class="row mb-4">
                         <div class="col">
                             <div>
-                                <input type="text" id="form6Example1" class="formulario-input" required />
-                                <label class="form-label" for="form6Example1">Nombre</label>
+                                <input type="text" id="form6Example1" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="form6Example1">Nombre</label>
                             </div>
                             <div>
-                                <input type="text" id="form6Example2" class="formulario-input" required />
-                                <label class="form-label" for="form6Example2">Apellido</label>
+                                <input type="text" id="form6Example2" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="form6Example2">Apellido</label>
                             </div>
                             <div>
-                                <input type="number" id="form6Example3" class="formulario-input" required />
-                                <label class="form-label" for="form6Example3">Celular</label>
+                                <input type="number" id="form6Example3" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="form6Example3">Celular</label>
                             </div>
                             <div>
-                                <input type="email" id="form6Example4" class="formulario-input" required />
-                                <label class="form-label" for="form6Example4">Correo</label>
+                                <input type="email" id="form6Example4" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="form6Example4">Correo</label>
                             </div>
                             <div>
-                                <textarea type="text" id="form6Example5" class="formulario-input"
+                                <textarea type="text" id="form6Example5" class="formulario-input bg-light"
                                     placeholder="Escribinos tu consulta!" required></textarea>
-                                <label class="form-label" for="form6Example5">Mensaje</label>
+                                <label class="form-label display-text" for="form6Example5">Mensaje</label>
                             </div>
                             <button type="submit" class="btn btn-warning btn-block btn-lg mb-4">Enviar</button>
                 </form>
@@ -88,7 +105,7 @@
                 <a href="https://wa.me/541132379619?text=Hola!%20Me%20gustaría%20hacerles%20una%20consulta."
                     target="_blank">
                     <img class="whatsapp-icono" src="../img/whatsapp.png" alt="">
-                    <p class="text-center pt-4" >¡Si preferis escribirnos por WhatsApp, podes hacerlo clickeando acá!</p>
+                    <p class="text-center pt-4 display-text" >¡Si preferis escribirnos por WhatsApp, podes hacerlo clickeando acá!</p>
                 </a>
             </div>
     </main>
@@ -132,6 +149,7 @@
     </footer>
     <script src="../assets/js/scriptReveal.js"></script>
     <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/darkMode.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 
