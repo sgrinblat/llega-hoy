@@ -12,6 +12,7 @@
     <link href="../style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../assets/js/scrollreveal.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Llega Hoy Logistica</title>
     <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
@@ -78,27 +79,27 @@
                     <div class="row mb-4">
                         <div class="col">
                             <div>
-                                <input type="text" id="form6Example1" class="formulario-input bg-light" required />
-                                <label class="form-label display-text" for="form6Example1">Nombre</label>
+                                <input name="formularioNombre" type="text" id="formularioNombre" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="formularioNombre">Nombre</label>
                             </div>
                             <div>
-                                <input type="text" id="form6Example2" class="formulario-input bg-light" required />
-                                <label class="form-label display-text" for="form6Example2">Apellido</label>
+                                <input name="formularioApellido" type="text" id="formularioApellido" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="formularioApellido">Apellido</label>
                             </div>
                             <div>
-                                <input type="number" id="form6Example3" class="formulario-input bg-light" required />
-                                <label class="form-label display-text" for="form6Example3">Celular</label>
+                                <input name="formularioNumero" type="number" id="formularioNumero" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="formularioNumero">Celular</label>
                             </div>
                             <div>
-                                <input type="email" id="form6Example4" class="formulario-input bg-light" required />
-                                <label class="form-label display-text" for="form6Example4">Correo</label>
+                                <input name="formularioEmail" type="email" id="formularioEmail" class="formulario-input bg-light" required />
+                                <label class="form-label display-text" for="formularioEmail">Correo</label>
                             </div>
                             <div>
-                                <textarea type="text" id="form6Example5" class="formulario-input bg-light"
+                                <textarea name="formularioMensaje" type="text" id="formularioMensaje" class="formulario-input bg-light"
                                     placeholder="Escribinos tu consulta!" required></textarea>
-                                <label class="form-label display-text" for="form6Example5">Mensaje</label>
+                                <label class="form-label display-text" for="formularioMensaje">Mensaje</label>
                             </div>
-                            <button type="submit" class="btn btn-warning btn-block btn-lg mb-4">Enviar</button>
+                            <button type="submit" id="enviarFormulario" class="btn btn-warning btn-block btn-lg mb-4">Enviar</button>
                 </form>
             </div>
             <div class="whatsapp">
@@ -150,6 +151,7 @@
     <script src="../assets/js/scriptReveal.js"></script>
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/darkMode.js"></script>
+    <script src="../assets/js/sweetAlerts.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 
