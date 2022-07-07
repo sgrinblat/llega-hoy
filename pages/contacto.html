@@ -79,19 +79,15 @@
                     <div class="row mb-4">
                         <div class="col">
                             <div>
-                                <input name="formularioNombre" type="text" id="formularioNombre" class="formulario-input bg-light" required />
+                                <input name="formularioNombre" type="text" id="formularioNombre" class="formulario-input bg-light" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />
                                 <label class="form-label display-text" for="formularioNombre">Nombre</label>
                             </div>
                             <div>
-                                <input name="formularioApellido" type="text" id="formularioApellido" class="formulario-input bg-light" required />
+                                <input name="formularioApellido" type="text" id="formularioApellido" class="formulario-input bg-light" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />
                                 <label class="form-label display-text" for="formularioApellido">Apellido</label>
                             </div>
                             <div>
-                                <input name="formularioNumero" type="number" id="formularioNumero" class="formulario-input bg-light" required />
-                                <label class="form-label display-text" for="formularioNumero">Celular</label>
-                            </div>
-                            <div>
-                                <input name="formularioEmail" type="email" id="formularioEmail" class="formulario-input bg-light" required />
+                                <input name="formularioEmail" type="email" id="formularioEmail" class="formulario-input bg-light" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required />
                                 <label class="form-label display-text" for="formularioEmail">Correo</label>
                             </div>
                             <div>
