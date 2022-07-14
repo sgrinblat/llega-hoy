@@ -9,9 +9,11 @@
     <meta name="author" content="">
     <link href="../bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../blocks.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link href="../style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../assets/js/scrollreveal.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Llega Hoy Logistica</title>
     <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
@@ -46,19 +48,19 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" 
-                                href="#">Sobre nosotros</a>
+                                href="nosotros.html">Sobre nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white"
                                 href="servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white"
+                            <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white" 
                                 href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3 text-white"
-                                href="login.html">Ingresar</a>
+                                href="#">Ingresar</a>
                         </li>
                     </ul>
                     <div class="div__boton-oscuro">
@@ -71,65 +73,54 @@
             </div>
         </nav>
     </header>
-    <main class="fondo-web" >
-        <div class="container scroll-top">
-            <h1 class="text-center display-text pt-5">Confiar en un equipo de trabajo no es algo para tomar a la ligera</h1>
-            <h3 class="text-center display-text pt-2">Por ese motivo, nos gustaría que sepas más sobre nuestra historia</h3>
+
+    <main class="fondo-web my-login-page">
+        <div class="container">
+            <h1 class="text-center pt-5 display-text">¿Ya sos un usuario registrado?</h1>
+            <h3 class="text-center pt-2 display-text">Inicia sesión para gestionar tu cuenta.</h3>
         </div>
-        <div class="seccionPrincipal">
-            <div class="row pt-5 pb-5 justify-content-center seccion-par">
-                <div class="scroll-left-parrafos col-10 col-xl-6 col-lg-6 col-md-6 col-sm-10">
-                    <h3 class="pt-4 display-text">Al igual que vos, nuestra empresa nació con un pequeño sueño: Emprender y convertir
-                        en realidad el deseo de llevar el mejor servicio a las personas que lo necesiten.</h3>
-                    <h3 class="pt-4 display-text">Empezando en el año 2018, con unos pocos pedidos que llegaban de negocios locales
-                        que confiaron en nosotros, fuimos creando, paulatinamente, la infraestructura de la cuál hoy
-                        gozamos.</h3>
-                </div>
-                <div class="scroll-left col-10 col-xl-4 col-lg-5 col-md-5 col-sm-10 pt-4">
-                    <img class="imagenes-nosotros"
-                        src="https://transportescarez.cl/wp-content/uploads/2021/02/Encomienda-express.jpg" alt="">
-                </div>
-            </div>
-            <div class="row bg-light pt-5 pb-5 justify-content-center seccion-impar">
-                <div class="scroll-right-parrafos col-10 col-xl-6 col-lg-6 col-md-6 col-sm-10">
-                    <h3 class="pt-4">La clave para nosotros fue armar un excelente equipo de trabajo. Nuestra máxima
-                        prioridad es el valor humano, por lo que hacemos enorme enfásis en solo rodearnos de
-                        colaboradores con excelente actitud y personalidad.</h3>
-                    <h3 class="pt-4">Con el deseo de mejorar y la ambición de crear una carrera profesional, nuestros
-                        empleadxs siempre dan lo mejor de ellos para seguir creciendo.</h3>
-                </div>
-                <div class="scroll-right col-10 col-xl-4 col-lg-5 col-md-5 col-sm-10 pt-4">
-                    <img class="imagenes-nosotros"
-                        src="http://gestion-4-72.com/wp-content/uploads/2021/12/galeria62.png" alt="">
-                </div>
-            </div>
-            <div class="row pt-5 pb-5 justify-content-center seccion-par">
-                <div class="scroll-left-parrafos col-10 col-xl-6 col-lg-6 col-md-6 col-sm-10">
-                    <h3 class="pt-4 display-text">Brindando un servicio de excelencia, nuestros clientes siempre tienen altisimos
-                        niveles de satisfacción.</h3>
-                    <h3 class="pt-4 display-text">En la era tecnológica que vivimos, donde los consumidores están altamente
-                        empoderados y se informan constantemente antes de consumir, nuestro foco siempre estuvo puesto
-                        en cumplir y superar sus expectativas. </h3>
-                </div>
-                <div class="scroll-left col-10 col-xl-4 col-lg-5 col-md-5 col-sm-10 pt-4">
-                    <img class="imagenes-nosotros"
-                        src="https://lafuentecargo.com/wp-content/uploads/2020/05/img-encomiendas.jpg" alt="">
-                </div>
-            </div>
-            <div class="row bg-light pt-5 pb-5 justify-content-center seccion-impar">
-                <div class="scroll-right-parrafos col-10 col-xl-6 col-lg-6 col-md-6 col-sm-10">
-                    <h3 class="pt-4 queMas">¿Qué más deberías saber de nosotros? No vas a estar solo si nos contratas.
-                    </h3>
-                    <h3 class="pt-4">Uniremos fuerzas con vos para impulsar tu negocio y ayudarte a mejorar tus métricas
-                        de venta. Tu crecimiento es una prioridad para nosotros.</h3>
-                </div>
-                <div class="scroll-right  col-10 col-xl-4 col-lg-5 col-md-5 col-sm-10 pt-4">
-                    <img class="imagenes-nosotros"
-                        src="https://teiamedia.com/wp-content/uploads/2019/11/TeiaMedia-te-ofrece-el-apoyo-que-necesitas-en-marketing-digital-para-emprender-tu-negocio-con-fuerza.png"
-                        alt="">
+        <section class="h-100">
+            <div class="container h-100">
+                <div class="row justify-content-md-center h-100">
+                    <div class="card-wrapper formulario">
+                        <div class="card fat fondo-web">
+                            <div class="card-body ">
+                                <h4 class="card-title display-text">Login</h4>
+                                <form method="POST" class="my-login-validation " novalidate="">
+                                    <div class="form-group mb-3">
+                                        <label class="mb-3 display-text" for="email">E-Mail</label>
+                                        <input id="email" type="email" class="form-control bg-light mb-3" name="email" value="" required autofocus>
+                                        <div class="invalid-feedback">
+                                            Email es inválido
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group mb-3">
+                                        <label class="mb-3 display-text" for="password">Contraseña</label>
+                                        <input id="password" type="password" class="form-control bg-light" name="password" required data-eye>
+                                        <div class="invalid-feedback">
+                                            Password is required
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group m-0 mb-3">
+                                        <button type="submit" class="btn btn-warning btn-block">
+                                            Ingresar
+                                        </button>
+                                    </div>
+                                    <a href="forgot.html" class="float-right">
+                                        ¿Recuperar contraseña?
+                                    </a>
+                                    <div class="mt-4 text-center display-text">
+                                        ¿No tenes una cuenta ya registrada? <a href="register.html">Crear cuenta</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer class="bg-dark pb-3 pt-5 text-center text-white">
