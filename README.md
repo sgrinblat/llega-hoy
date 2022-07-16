@@ -1,5 +1,5 @@
 # Llega Hoy - Coderhouse
-He creado esta web para un desafio de uso de Bootstrap para el curso de Diseño web de Coderhouse. Actualmente estoy modificando y mejorando la web para el curso de Javascript de Coderhouse. La web es de una logística ficticia que ofrece sus servicios.
+He creado esta web para un desafio de uso de Bootstrap para el curso de Diseño web de Coderhouse, he continuado mi trabajo en ella para el curso de JS de Coderhouse, y finalmente he seguido mejorando varios aspectos para un proyecto integrador. La web es de una logística ficticia que ofrece sus servicios de correo a potenciales clientes.
 
 ## Índice
 
